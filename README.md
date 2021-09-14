@@ -1,6 +1,21 @@
 # BIGTREETECH SKR E3 Turbo for Creality CR10 Mini with a EZABLPro-like bed-leveling sensor (capacitive)
 **_This is a fork of the original repo of the BTT for the SKR E3 Turbo: [bigtreetech/BIGTREETECH-SKR-E3-Turbo](https://github.com/bigtreetech/BIGTREETECH-SKR-E3-Turbo)_**
 ---
+My most important changes on top of the original repo are for:
+- Creality CR10 Mini printer
+  - Bed size: 300 x 220mm
+  - Z_MAX: 300mm 
+  - PID values and various minor adjustments
+- Custom changes:
+  - use the chamber sensor to measure temperature inside the case
+  - inverted the endstop for Z to work with my bed levelling sensor ([LJC18A3-B-Z/BX](https://www.amazon.de/gp/product/B072C35ZDC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
+  - activated the TMC driver for the Z2 motor (using the E1) because I have a upgraded my printer to dual-Z motors
+  - changed motor currents:
+    - X_CURRENT       650
+    - Y_CURRENT       800 (the bed is heavier than the X axis)
+    - Z_CURRENT       650
+    - Z2_CURRENT      650
+ ---
 
 BIGTREETECH SKR E3 Turbo (V1.x) is the next mainboard in the BTT SKR Mini E3 series of ultra-quiet, low-power, high-quality 3D printing machine controller boards from BIQU.
 
