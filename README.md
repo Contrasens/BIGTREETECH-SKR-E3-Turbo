@@ -1,4 +1,6 @@
-# BIGTREETECH SKR E3 Turbo
+# BIGTREETECH SKR E3 Turbo for Creality CR10 Mini with a EZABLPro-like bed-leveling sensor (capacitive)
+**_This is a fork of the original repo of the BTT for the SKR E3 Turbo: [bigtreetech/BIGTREETECH-SKR-E3-Turbo](https://github.com/bigtreetech/BIGTREETECH-SKR-E3-Turbo)_**
+---
 
 BIGTREETECH SKR E3 Turbo (V1.x) is the next mainboard in the BTT SKR Mini E3 series of ultra-quiet, low-power, high-quality 3D printing machine controller boards from BIQU.
 
