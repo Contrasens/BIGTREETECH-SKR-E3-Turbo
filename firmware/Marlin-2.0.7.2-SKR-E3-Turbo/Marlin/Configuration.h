@@ -488,17 +488,17 @@
   //#define PID_PARAMS_PER_HOTEND // Uses separate PID parameters for each extruder (useful for mismatched extruders)
                                   // Set/get with gcode: M301 E[extruder number, 0-2]
 
-  // Stock CR-10 tuned for 70C
+  // Stock CR-10 tuned for 240C
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify between 1 and HOTENDS values per array.
     // If fewer than EXTRUDER values are provided, the last element will be repeated.
-    #define DEFAULT_Kp_LIST {  22.57,  22.57 }
-    #define DEFAULT_Ki_LIST {   1.72,   1.72 }
-    #define DEFAULT_Kd_LIST {  73.96,  73.96 }
+    #define DEFAULT_Kp_LIST {  21.90,  21.90 }
+    #define DEFAULT_Ki_LIST {   1.78,   1.78 }
+    #define DEFAULT_Kd_LIST {  67.30,  67.30 }
   #else
-    #define DEFAULT_Kp  22.57
-    #define DEFAULT_Ki   1.72
-    #define DEFAULT_Kd  73.96
+    #define DEFAULT_Kp  21.90
+    #define DEFAULT_Ki   1.78
+    #define DEFAULT_Kd  67.30
   #endif
 #endif // PIDTEMP
 
